@@ -1,0 +1,342 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.imastudio.driverappojol"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.CALL_PHONE" />
+17-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:11:5-69
+17-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:11:22-66
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:12:5-67
+18-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:13:5-75
+19-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:13:22-72
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+20-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:10:5-76
+20-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:10:22-73
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/ce0140cbce189ad45ea4f4fc550119d8/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/ce0140cbce189ad45ea4f4fc550119d8/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/ce0140cbce189ad45ea4f4fc550119d8/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/ce0140cbce189ad45ea4f4fc550119d8/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/ce0140cbce189ad45ea4f4fc550119d8/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+26
+27    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/38889cba64334b87a2a3d5286e5a2b5b/play-services-measurement-api-17.2.3/AndroidManifest.xml:24:5-68
+27-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/38889cba64334b87a2a3d5286e5a2b5b/play-services-measurement-api-17.2.3/AndroidManifest.xml:24:22-65
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:26:22-79
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:26:22-107
+30
+31    <application
+31-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:15:5-57:19
+32        android:allowBackup="true"
+32-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:16:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.0.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/576da1d0dffd769126e261a00deab8bb/core-1.0.1/AndroidManifest.xml:22:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:17:9-43
+36        android:label="@string/app_name"
+36-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:18:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:19:9-54
+38        android:supportsRtl="true"
+38-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:20:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme"
+40-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:21:9-40
+41        android:usesCleartextTraffic="true" >
+41-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:22:9-44
+42
+43        <!--
+44             The API key for Google Maps-based APIs is defined as a string resource.
+45             (See the file "res/values/google_maps_api.xml").
+46             Note that the API key is linked to the encryption key used to sign the APK.
+47             You need a different API key for each encryption key, including the release key that is used to
+48             sign the APK for publishing.
+49             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+50        -->
+51        <meta-data
+51-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:32:9-34:55
+52            android:name="com.google.android.geo.API_KEY"
+52-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:33:13-58
+53            android:value="@string/google_maps_key" />
+53-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:34:13-52
+54
+55        <activity
+55-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:36:9-38:76
+56            android:name="com.imastudio.driverappojol.view.activity.DetailOrderActivity"
+56-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:37:13-62
+57            android:label="@string/title_activity_detail_order" />
+57-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:38:13-64
+58
+59        <service android:name="com.imastudio.driverappojol.helper.LocationMonitoringService" />
+59-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:40:9-69
+59-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:40:18-66
+60        <service android:name="com.imastudio.driverappojol.fcm.MyFirebaseMessagingService" >
+60-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:41:9-45:19
+60-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:41:18-64
+61            <intent-filter>
+61-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:42:13-44:29
+62                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+62-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:43:17-78
+62-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:43:25-75
+63            </intent-filter>
+64        </service>
+65
+66        <activity android:name="com.imastudio.driverappojol.view.activity.HistoryActivity" />
+66-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:47:9-67
+66-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:47:19-64
+67        <activity android:name="com.imastudio.driverappojol.view.activity.SplashScreenActivity" >
+67-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:48:9-54:20
+67-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:48:19-69
+68            <intent-filter>
+68-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:49:13-53:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:50:17-69
+69-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:50:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:52:17-77
+71-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:52:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity android:name="com.imastudio.driverappojol.view.activity.AuthActivity" />
+74-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:55:9-64
+74-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:55:19-61
+75        <activity android:name="com.imastudio.driverappojol.MainActivity" />
+75-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:56:9-50
+75-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:56:19-47
+76        <!-- Autocomplete -->
+77        <activity
+77-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:16:9-23:20
+78            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+78-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:17:13-91
+79            android:exported="false"
+79-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:18:13-37
+80            android:hardwareAccelerated="true"
+80-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:19:13-47
+81            android:label="@string/places_autocomplete_label"
+81-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:20:13-62
+82            android:theme="@style/PlacesAutocompleteThemeOverlay"
+82-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:21:13-66
+83            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+83-->[com.google.android.libraries.places:places-compat:2.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/03e90c145b99cc60aed5a1ad22346db0/places-compat-2.0.0/AndroidManifest.xml:22:13-71
+84        </activity> <!-- Needs to be explicitly declared on P+ -->
+85        <uses-library
+85-->[com.google.android.gms:play-services-maps:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/ce0140cbce189ad45ea4f4fc550119d8/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+86            android:name="org.apache.http.legacy"
+86-->[com.google.android.gms:play-services-maps:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/ce0140cbce189ad45ea4f4fc550119d8/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+87            android:required="false" />
+87-->[com.google.android.gms:play-services-maps:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/ce0140cbce189ad45ea4f4fc550119d8/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+88
+89        <provider
+89-->[com.squareup.picasso:picasso:2.71828] /home/alfian/.gradle/caches/transforms-2/files-2.1/c1e529fc789e994ef248ef3b1eef4111/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+90            android:name="com.squareup.picasso.PicassoProvider"
+90-->[com.squareup.picasso:picasso:2.71828] /home/alfian/.gradle/caches/transforms-2/files-2.1/c1e529fc789e994ef248ef3b1eef4111/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+91            android:authorities="com.imastudio.driverappojol.com.squareup.picasso"
+91-->[com.squareup.picasso:picasso:2.71828] /home/alfian/.gradle/caches/transforms-2/files-2.1/c1e529fc789e994ef248ef3b1eef4111/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+92            android:exported="false" />
+92-->[com.squareup.picasso:picasso:2.71828] /home/alfian/.gradle/caches/transforms-2/files-2.1/c1e529fc789e994ef248ef3b1eef4111/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+93        <!--
+94             FirebaseMessagingService performs security checks at runtime,
+95             but set to not exported to explicitly avoid allowing another app to call it.
+96        -->
+97        <service
+97-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:28:9-34:19
+98            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+98-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:29:13-82
+99            android:exported="false" >
+99-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:30:13-37
+100            <intent-filter android:priority="-500" >
+100-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:42:13-44:29
+101                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+101-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:43:17-78
+101-->/home/alfian/AndroidStudioProjects/OJOLDriver/app/src/main/AndroidManifest.xml:43:25-75
+102            </intent-filter>
+103        </service>
+104        <service
+104-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:35:9-41:19
+105            android:name="com.google.firebase.components.ComponentDiscoveryService"
+105-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:36:13-84
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:19.3.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/44663e493882065422cb3d0b49affb83/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:37:13-37
+108            <meta-data
+108-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:38:13-40:85
+109                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+109-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:39:17-119
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-messaging:20.1.2] /home/alfian/.gradle/caches/transforms-2/files-2.1/cd4df73f5d5609c388aec27d752b3f24/jetified-firebase-messaging-20.1.2/AndroidManifest.xml:40:17-82
+111            <meta-data
+111-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/38889cba64334b87a2a3d5286e5a2b5b/play-services-measurement-api-17.2.3/AndroidManifest.xml:30:13-32:85
+112                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+112-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/38889cba64334b87a2a3d5286e5a2b5b/play-services-measurement-api-17.2.3/AndroidManifest.xml:31:17-139
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/38889cba64334b87a2a3d5286e5a2b5b/play-services-measurement-api-17.2.3/AndroidManifest.xml:32:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:32:13-34:85
+115                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+115-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:33:17-96
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:34:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-datatransport:17.0.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/4fe398d7df0ecdf7c387486ba8982c49/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+118                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+118-->[com.google.firebase:firebase-datatransport:17.0.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/4fe398d7df0ecdf7c387486ba8982c49/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-datatransport:17.0.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/4fe398d7df0ecdf7c387486ba8982c49/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-installations:16.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/71ea618d52b2e1de10bc18a820048b4f/firebase-installations-16.0.0/AndroidManifest.xml:17:13-19:85
+121                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+121-->[com.google.firebase:firebase-installations:16.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/71ea618d52b2e1de10bc18a820048b4f/firebase-installations-16.0.0/AndroidManifest.xml:18:17-127
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-installations:16.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/71ea618d52b2e1de10bc18a820048b4f/firebase-installations-16.0.0/AndroidManifest.xml:19:17-82
+123        </service>
+124
+125        <receiver
+125-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:37:9-44:20
+126            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+126-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:38:13-78
+127            android:exported="true"
+127-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:39:13-36
+128            android:permission="com.google.android.c2dm.permission.SEND" >
+128-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:40:13-73
+129            <intent-filter>
+129-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:41:13-43:29
+130                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+130-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:42:17-81
+130-->[com.google.firebase:firebase-iid:20.1.1] /home/alfian/.gradle/caches/transforms-2/files-2.1/38043994a379878629b256adb03bfe29/firebase-iid-20.1.1/AndroidManifest.xml:42:25-78
+131            </intent-filter>
+132        </receiver>
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+138
+139        <provider
+139-->[com.google.firebase:firebase-common:19.3.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/44663e493882065422cb3d0b49affb83/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+140            android:name="com.google.firebase.provider.FirebaseInitProvider"
+140-->[com.google.firebase:firebase-common:19.3.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/44663e493882065422cb3d0b49affb83/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+141            android:authorities="com.imastudio.driverappojol.firebaseinitprovider"
+141-->[com.google.firebase:firebase-common:19.3.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/44663e493882065422cb3d0b49affb83/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+142            android:exported="false"
+142-->[com.google.firebase:firebase-common:19.3.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/44663e493882065422cb3d0b49affb83/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+143            android:initOrder="100" />
+143-->[com.google.firebase:firebase-common:19.3.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/44663e493882065422cb3d0b49affb83/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+144
+145        <receiver
+145-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:29:9-33:20
+146            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+146-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:30:13-85
+147            android:enabled="true"
+147-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:31:13-35
+148            android:exported="false" >
+148-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:32:13-37
+149        </receiver>
+150        <receiver
+150-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:34:9-42:20
+151            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+151-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:35:13-100
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:36:13-35
+153            android:exported="true"
+153-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:37:13-36
+154            android:permission="android.permission.INSTALL_PACKAGES" >
+154-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:38:13-69
+155            <intent-filter>
+155-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:39:13-41:29
+156                <action android:name="com.android.vending.INSTALL_REFERRER" />
+156-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:40:17-79
+156-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:40:25-76
+157            </intent-filter>
+158        </receiver>
+159
+160        <service
+160-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:44:9-47:40
+161            android:name="com.google.android.gms.measurement.AppMeasurementService"
+161-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:45:13-84
+162            android:enabled="true"
+162-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:46:13-35
+163            android:exported="false" />
+163-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:47:13-37
+164        <service
+164-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:48:9-52:72
+165            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+165-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:49:13-87
+166            android:enabled="true"
+166-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:50:13-35
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:51:13-37
+168            android:permission="android.permission.BIND_JOB_SERVICE" />
+168-->[com.google.android.gms:play-services-measurement:17.2.3] /home/alfian/.gradle/caches/transforms-2/files-2.1/2c31057304fa5cd14e297ec79d9ba56b/play-services-measurement-17.2.3/AndroidManifest.xml:52:13-69
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/d2b9d17e398c3242df7241dc88b0a62a/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/d2b9d17e398c3242df7241dc88b0a62a/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:17.0.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/d2b9d17e398c3242df7241dc88b0a62a/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+173
+174        <service
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/597475d33933afb186bcef631c12db1c/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+175            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+175-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/597475d33933afb186bcef631c12db1c/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+176            android:exported="false" >
+176-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/597475d33933afb186bcef631c12db1c/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+177            <meta-data
+177-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/597475d33933afb186bcef631c12db1c/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+178                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+178-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/597475d33933afb186bcef631c12db1c/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+179                android:value="cct" />
+179-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/597475d33933afb186bcef631c12db1c/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+180        </service>
+181        <service
+181-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/837c8913635cfdf2f26599ed0e8f788a/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+182            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+182-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/837c8913635cfdf2f26599ed0e8f788a/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+183            android:exported="false"
+183-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/837c8913635cfdf2f26599ed0e8f788a/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+184            android:permission="android.permission.BIND_JOB_SERVICE" >
+184-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/837c8913635cfdf2f26599ed0e8f788a/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+185        </service>
+186
+187        <receiver
+187-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/837c8913635cfdf2f26599ed0e8f788a/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+188            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+188-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/837c8913635cfdf2f26599ed0e8f788a/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+189            android:exported="false" />
+189-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/alfian/.gradle/caches/transforms-2/files-2.1/837c8913635cfdf2f26599ed0e8f788a/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+190    </application>
+191
+192</manifest>

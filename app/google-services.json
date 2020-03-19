@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "165133120553",
+    "firebase_url": "https://project-ojek-online-766a1.firebaseio.com",
+    "project_id": "project-ojek-online-766a1",
+    "storage_bucket": "project-ojek-online-766a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165133120553:android:6d2ebd926f2965fe935838",
+        "android_client_info": {
+          "package_name": "com.imastudio.driverappojol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165133120553-gfu5p8rbidsg35s75p2tque9tf33minr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imastudio.driverappojol",
+            "certificate_hash": "837e37421261e913b2de7d84955d1dd9da2a61f0"
+          }
+        },
+        {
+          "client_id": "165133120553-bbbi99luffb39v55t0el0vuq3ok2k4kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXIYXOqX6nGSR_jQSwtMXN3dkUAhjQz1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165133120553-bbbi99luffb39v55t0el0vuq3ok2k4kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
